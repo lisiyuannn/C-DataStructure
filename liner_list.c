@@ -2,7 +2,7 @@
 
 int InitList(SqList *List)
 {
-    memset((*List).data, 0, sizeof(SqList));
+    memset(List, 0, sizeof(SqList));
     List->cur_length = 0;
     return 1;
 }
