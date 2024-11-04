@@ -4,8 +4,7 @@
 /*@date     2024/10/29              */
 /********************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "config.h"
 
 #define SqList_MaxSize   100     //线性表最大容量
 typedef int SqList_ElemType;

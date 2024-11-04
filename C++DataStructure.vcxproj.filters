@@ -24,12 +24,27 @@
     <ClCompile Include="link_list.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="liner_stack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="link_stack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="liner_list.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="link_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="liner_stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="link_stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

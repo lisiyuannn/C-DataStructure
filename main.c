@@ -2,39 +2,40 @@
 /*  @author SIYUAN                          */
 /********************************************/
 
-#include <stdio.h>
-#include <string.h>
+#include "config.h"
 #include "liner_list.h"
 #include "link_list.h"
+#include "liner_stack.h"
+#include "link_stack.h"
 
 int main(void)
 {
-    
-    LinkList head = NULL;
-    head = NewLinkList();
-    if (head == NULL)
+    //初始化链栈
+    LinkStack stack;
+    stack = initLinkStack();
+    if (stack == NULL)
     {
-        printf("New LinkList Filed!");
-        return 0;
+        printf("stack == NULL!");
     }
-    //printf("%d", head->data);
-    LinkListPrint(head);
-    LinkListInsert(head, 0, 0);
-    LinkListPrint(head);
-    LinkListInsert(head, 0, 1);
-    LinkListInsert(head, 0, 2);
-    LinkListInsert(head, 0, 3);
-    LinkListInsert(head, 0, 4);
-    LinkListPrint(head);
-    printf("链表长度为：%d\n", LinkListLength(head));
-    LinkListDel(head, 0);
-    LinkListPrint(head);
-    LinkListDel(head, LinkListLength(head) - 1);
-    LinkListPrint(head);
-    printf("loc is %d\n", LinkListFind(head, 0));
-    printf("loc is %d\n", LinkListFind(head, 2));
-    printf("loc is %d\n", LinkListFind(head, 3));
+    printf("init success!\n");
 
+    if (!pushLinkStack(stack, 1))
+    {
+        printf("入栈失败！\n");
+    }
+    if (!pushLinkStack(stack, 2))
+    {
+        printf("入栈失败！\n");
+    }
+    if (!pushLinkStack(stack, 3))
+    {
+        printf("入栈失败！\n");
+    }
+
+    int val = popLinkStack(stack);
+    printf("%d\n", val);
+
+    printf("%d\n", getLinkStack(stack));
 
 
 
