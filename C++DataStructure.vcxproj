@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="liner_list.c" />
+    <ClCompile Include="liner_queue.c" />
     <ClCompile Include="link_list.c" />
     <ClCompile Include="link_stack.c" />
     <ClCompile Include="main.c" />
@@ -136,6 +137,7 @@
   <ItemGroup>
     <ClInclude Include="config.h" />
     <ClInclude Include="liner_list.h" />
+    <ClInclude Include="liner_queue.h" />
     <ClInclude Include="link_list.h" />
     <ClInclude Include="liner_stack.h" />
     <ClInclude Include="link_stack.h" />
