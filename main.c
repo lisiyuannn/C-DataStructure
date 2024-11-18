@@ -19,9 +19,24 @@ int main(void)
     }
     else
     {
-        printf("链队初始化成功！");
+        printf("链队初始化成功！\n");
     }
     linkQueInit(queue);
+
+    pushLinkQue(queue, 1);
+    pushLinkQue(queue, 2);
+    pushLinkQue(queue, 3);
+    pushLinkQue(queue, 4);
+    pushLinkQue(queue, 5);
+    printLinkQue(queue);
+    popLinkQue(queue);
+    printLinkQue(queue);
+    popLinkQue(queue);
+    printLinkQue(queue);
+    pushLinkQue(queue, 6);
+    printLinkQue(queue);
+    pushLinkQue(queue, 7);
+    printLinkQue(queue);
 
     return 0;
 }

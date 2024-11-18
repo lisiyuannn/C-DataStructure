@@ -130,7 +130,7 @@
     <ClCompile Include="liner_list.c" />
     <ClCompile Include="liner_queue.c" />
     <ClCompile Include="link_list.c" />
-    <ClCompile Include="link_que.cpp" />
+    <ClCompile Include="link_que.c" />
     <ClCompile Include="link_stack.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="liner_stack.c" />

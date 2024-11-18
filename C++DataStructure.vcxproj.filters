@@ -33,7 +33,7 @@
     <ClCompile Include="liner_queue.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="link_que.cpp">
+    <ClCompile Include="link_que.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

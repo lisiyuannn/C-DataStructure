@@ -27,4 +27,6 @@ LinkQueElemType popLinkQue(LinkQueList* queue);
 //取栈顶元素
 LinkQueElemType getLinkQue(LinkQueList* queue);
 
+//打印队列元素
+void printLinkQue(LinkQueList* queue);
 
