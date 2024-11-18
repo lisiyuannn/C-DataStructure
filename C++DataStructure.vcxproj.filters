@@ -33,6 +33,9 @@
     <ClCompile Include="liner_queue.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="link_que.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="liner_list.h">
@@ -51,6 +54,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="liner_queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="link_que.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
